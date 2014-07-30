@@ -13,8 +13,18 @@ class Rectangle
     @length * @width
   end
 
+  def return_perimeter
+    (@length*2) + (@width*2)
+  end
+
 end #class end
 
-a = Rectangle.new(2,4)
 
-puts a.return_l_w
+
+if __FILE__ == $0
+  #print things from here
+  a = Rectangle.new(2,4)
+  puts a.return_l_w
+end
+
+

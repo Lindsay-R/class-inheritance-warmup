@@ -14,4 +14,8 @@ describe Rectangle do
     expect(rectangle(2, 4).return_area).to eq(8)
   end
 
+  it "can return perimeter" do
+    expect(rectangle(2, 4).return_perimeter).to eq(12)
+  end
+
 end
